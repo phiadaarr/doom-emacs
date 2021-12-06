@@ -80,7 +80,7 @@ order. With the =+pyright= flag, it will try Pyright first.
 Each of these servers must be installed on your system via your OS package
 manager or manually:
 
-+ [[https://pypi.org/project/python-language-server/][*pyls*]] can be installed with ~pip install python-language-server[all]~.
++ [[https://pypi.org/project/python-language-server/][*pyls*]] can be installed with ~pip install 'python-language-server[all]'~.
 + *mspyls* can be installed by typing =M-x lsp-install-server RET mspyls=.
 + *pyright* can be installed with ~pip install pyright~ or ~npm i -g pyright~.
 
